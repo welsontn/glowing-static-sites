@@ -5,7 +5,7 @@
     "id": "thisisjustrandomidaabbccdd12321",
     "icons": [
       {
-        "src": "/spotify-embed/favicon-512x512.png",
+        "src": "./favicon-512x512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
