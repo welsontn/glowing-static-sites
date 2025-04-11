@@ -3,7 +3,14 @@
   <title>A Spotify Embed Example</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="manifest" href="./manifest.json" crossorigin="use-credentials" />
+  <script src="./main.js" defer></script>
   <style>
+    body
+    {
+      /* Required to prevent "pulldown to refresh" in PWA for Android */
+      overscroll-behavior-y: contain;
+    }
+    
     .episodes {
       display: flex;
       flex-direction: column;
