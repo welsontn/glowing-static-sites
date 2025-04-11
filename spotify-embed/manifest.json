@@ -1,0 +1,18 @@
+{
+    "short_name": "Jukebox",
+    "name": "Spotify Embed",
+    "description": "Jukebox to play spotify music.",
+    "id": "thisisjustrandomidaabbccdd12321",
+    "icons": [
+      {
+        "src": "/spotify-embed/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "./index.html",
+    "display": "fullscreen",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
+  
