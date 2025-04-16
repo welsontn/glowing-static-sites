@@ -4,6 +4,8 @@ body
   /* Required to prevent "pulldown to refresh" in PWA for Android */
   overscroll-behavior-y: contain;
   overflow: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {
