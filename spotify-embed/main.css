@@ -1,0 +1,41 @@
+
+body
+{
+  /* Required to prevent "pulldown to refresh" in PWA for Android */
+  overscroll-behavior-y: contain;
+  overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.episodes {
+  display: flex;
+  flex-direction: column;
+}
+
+.episode {
+  min-width: max-content;
+  margin-bottom: .8rem;
+  padding: .8rem 1rem;
+  border-radius: 10px;
+  border: 0;
+  background: #191414;
+  color: #fff;
+  cursor: pointer;
+}
+
+.episode:hover {
+  background: #1Db954;
+}
+
+@media screen and (min-width: 860px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
